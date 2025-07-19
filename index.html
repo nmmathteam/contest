@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
+		<base href="%sveltekit.base%" />
 		<link rel="icon" href="./favicon.png" />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +12,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<style>
 @charset "UTF-8";
-@import "tailwindcss";
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 * {
   box-sizing: border-box;
 }
@@ -42,57 +44,32 @@ a:not(nav a) {
   }
 	</style>
 		
-		<link href="./_app/immutable/assets/0.B8Jz42xc.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/Navbar.DyOe1T8s.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/2.CfYVo_VO.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.BVxMja3t.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DbMvireI.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.dF2uNzU6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DXzHLOGc.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Z8v_fVvw.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/C1C_Ef74.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.LBw5sVFy.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DOCZP9zW.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CWPRSOa_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/B2q6apUB.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BKvhK0Si.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BKY-vf3i.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BclqH6qh.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/u4NagGyf.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BwtVLQ1V.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.CcYTLt3w.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DID0r4Zq.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/C7jHY2l6.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.Cd2SfEuH.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CS0-viA6.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/BRFUSrjv.js"><!--[--><meta name="description" content=""><!--]--><title>NM³ | Home</title>
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><!----><!----><section id="mainheader" class="svelte-16lq34n"><nav class="nobg svelte-1nf69cu"><a href="/" class="svelte-1nf69cu"><img src="/img/NMMTnobg.png" alt="NMMT" class="svelte-1nf69cu"></a> <div id="hamburger" class="svelte-1nf69cu"><div class="svelte-1nf69cu"></div> <div class="svelte-1nf69cu"></div> <div class="svelte-1nf69cu"></div></div> <ul class="svelte-1nf69cu"><li class="svelte-1nf69cu"><a href="/nmmm2025" class="text-lg svelte-1nf69cu">NM³ 2025</a></li> <li class="svelte-1nf69cu"><a href="/team2025" class="text-lg svelte-1nf69cu">Our Team</a></li> <li class="svelte-1nf69cu"><a href="/rules" class="text-lg svelte-1nf69cu">Rules</a></li>  <li class="text-lg svelte-1nf69cu"><a href="/signup" target="_blank" id="join" class="nobg svelte-1nf69cu">Register!</a></li></ul></nav><!----> <div><h1 class="max-w-2xl mb-4 text-4xl font-bold leading-none md:text-5xl xl:text-6xl text-black svelte-16lq34n">New Mexico Math Meet</h1> <p class="max-w-2xl mb-6 font-light text-gray-400 lg:mb-8 md:text-lg lg:text-xl svelte-16lq34n">New Mexico's first student-organized middle school math competition</p> <a href="/nmmm2025" class="inline-flex items-center justify-center pr-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800">Learn more <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></a> <a href="/signup" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-primary-700 rounded-lg hover:border-primary-800 hover:text-primary-800">Register!</a></div></section> <section class="py-12 relative z-20 duration-150 mb-5"><div class="justify-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="lg:grid grid-cols-4"><div><p class="mt-12 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Who are we?</p> <p class="mt-4 mb-3 max-w-2xl text-xl text-gray-500">The New Mexico Math Team (NMMT) are the organizers of the
-                    New Mexico Math Meet.</p></div> <div class="mt-8 flex rounded-xl pr-3 py-5 md:ml-5 bg-[#f0fcfb]"><div class="absolute flex items-center justify-center ml-2 h-12 w-12 text-[#23a298]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="h-7 w-7"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div> <p class="ml-16 max-w-2xl text-[17px] text-gray-500">Many of our members have qualified for the AIME, MATHCOUNTS
-                    Nationals, and have placed in UNM-PNM.</p></div> <div class="mt-8 bg-[#f0fcfb] rounded-xl pr-3 py-5 md:ml-5"><div class="absolute flex items-center justify-center ml-2 h-12 w-12 rounded-md text-[#23a298]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="h-7 w-7"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div> <p class="ml-16 max-w-2xl text-[17px] text-gray-500 pr-2">We teach and learn from each other to prepare for and
-                    compete in various team-based math competitions.</p></div> <div class="mt-8 bg-[#f0fcfb] rounded-xl pr-3 py-5 md:ml-5"><div class="absolute flex items-center justify-center ml-2 h-12 w-12 rounded-md text-[#23a298]"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" class="h-7 w-7"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div> <p class="ml-16 max-w-2xl text-[17px] text-gray-500 pr-2">Our competition has been thoughtfully crafted with the
-                    support of various organizations in New Mexico.</p></div></div></div></section> <section class="bg-slate-100"><div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"><img class="w-full rounded-xl" src="/img/bg.png" alt="Math equation"> <div class="mt-4 md:mt-0"><h2 class="mb-5 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">About the contest</h2> <p class="mb-6 text-gray-500 text-xl">The New Mexico Math Meet (NM³) is an in-person math
-                competition for middle school students across the state of New
-                Mexico. We aim to provide a high-quality, challenging,
-                accessible competition to motivated students interested in
-                mathematics.</p> <a href="/nmmm2025" class="inline-flex items-center px-4 py-2 text-base font-medium text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-200 hover:text-blue-700">Learn more <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path></svg></a></div></div></section> <section class="bg-slate-50"><div class="gap-8 items-center py-4 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6"><div class="mt-4 md:mt-0"><h2 class="mb-5 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Registration Timeline</h2> <p class="mb-6 text-gray-500 text-xl">Registration will open on August 1st, and a maximum of 30 teams
-                will be accepted. The contest is open to middle schoolers only,
-                and teams must consist of 2-4 individuals.</p> <a href="/signup" class="inline-flex items-center px-4 py-2 text-base font-medium text-gray-900 border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700">Register here <svg class="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path></svg></a></div> <div class="max-w-xl mx-auto text-left mt-10 ml-10 mr-10"><ol class="relative border-s border-gray-200"><li class="mb-10 ms-4"><div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div> <time class="mb-1 text-base font-normal leading-none text-gray-400">August 2025</time> <h3 class="text-xl font-semibold text-gray-900 mb-1">Registration opens</h3> <p class="mb-4 text-lg font-normal text-gray-500">Registration will open on August 1st.</p></li> <li class="mb-10 ms-4"><div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div> <time class="mb-1 text-base font-normal leading-none text-gray-400">September 2025</time> <h3 class="text-xl font-semibold text-gray-900 mb-1">Registration closes</h3> <p class="mb-4 text-lg font-normal text-gray-500">Registration closes on September __.</p></li> <li class="mb-10 ms-4"><div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white"></div> <time class="mb-1 text-base font-normal leading-none text-gray-400">October 2025</time> <h3 class="text-xl font-semibold text-gray-900 mb-1">Contest day!</h3> <p class="mb-4 text-lg font-normal text-gray-500">The contest takes place in October at UNM.</p></li></ol></div></div></section> <section class="py-20"><h2 class="mb-10 mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl" style="text-align:center">Sponsors &amp; Partners</h2> <div id="sponsors" class="svelte-16lq34n"><a href="https://campersand.org/" class="svelte-16lq34n"><img src="/img/camp.jpg" alt="C&amp;" class="svelte-16lq34n"></a> <a href="https://mathcontest.unm.edu/" class="svelte-16lq34n"><img src="/img/unm.png" alt="UNM" class="svelte-16lq34n"></a></div></section> <footer class="bg-white"><div class="container px-4 pt-8 mx-auto pb-10"><hr class="my-10 border-gray-200 mx-auto"> <div class="flex flex-col items-center sm:flex-row sm:justify-between"><p class="text-sm text-gray-500">© Copyright 2025. All Rights Reserved.</p> <div class="flex mt-3 -mx-2 sm:mt-0"><a href="/" class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500" aria-label="Home">Home</a> <a href="/team2025" class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500" aria-label="Privacy">Our Team</a> <a href="/signup" class="mx-2 text-sm text-gray-500 transition-colors duration-300 hover:text-gray-500" aria-label="Cookies">Register!</a></div></div></div></footer><!----><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
+		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_ogycgm = {
+					__sveltekit_1kfbrhb = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.BVxMja3t.js"),
-						import("./_app/immutable/entry/app.LBw5sVFy.js")
+						import("./_app/immutable/entry/start.dF2uNzU6.js"),
+						import("./_app/immutable/entry/app.CWPRSOa_.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [null,null],
-							form: null,
-							error: null
-						});
+						kit.start(app, element);
 					});
 				}
 			</script>
