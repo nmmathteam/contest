@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import"./DncLUMiR.js";import{t as m,k as i,a as n,l as a,m as r,n as d}from"./BGnhZR68.js";import{p as h}from"./DCH4_l--.js";var f=m('<header class="svelte-ee5onn"><h1 class="text-4xl font-semibold svelte-ee5onn"> </h1></header>');function H(s,o){let l=h(o,"title",8,"");var e=f(),t=a(e),p=a(t,!0);r(t),r(e),i(()=>d(p,l())),n(s,e)}export{H};
