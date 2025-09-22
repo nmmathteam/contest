@@ -1,0 +1,25 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/DncLUMiR.js";import{t as _,k as M,a as o,s as a,l as n,m as r,n as T,h as A,G as N,$ as j,ae as d,af as c}from"../chunks/BGnhZR68.js";import{a as x,N as H}from"../chunks/Cz4ZN9Xy.js";import{F as C}from"../chunks/CJOumopx.js";import{H as W}from"../chunks/BGFXIe9i.js";import{s as F}from"../chunks/BRJTBKjN.js";var I=_('<a target="_blank"><div class="spons bg-slate-200 svelte-1y1qqk2"><img class="svelte-1y1qqk2"> <div><h1 class="text-4xl text-gray-800 font-semibold svelte-1y1qqk2"> </h1> <blockquote class="text-gray-600 text-lg border-l-4 border-gray-500 svelte-1y1qqk2"><!></blockquote></div></div></a>');function h(y,s){var i=I(),v=n(i),u=n(v),g=a(u,2),m=n(g),f=n(m,!0);r(m);var p=a(m,2),b=n(p);F(b,s,"default",{}),r(p),r(g),r(v),r(i),M(()=>{x(i,"href",s.url),x(u,"src",s.imgurl),x(u,"alt",s.name),T(f,s.name)}),o(y,i)}var J=_('<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">'),R=_('<section id="mainheader" class="svelte-80j4fg"><!> <!></section> <section class="mt-20"><h1 class="text-center text-5xl font-bold mb-5 text-gray-700">Sponsors</h1> <h2 class="text-center text-xl mb-10 text-gray-400 italic font-normal">Thank you to our generous sponsors for making this contest possible!</h2> <section class="sponsors svelte-80j4fg"><!> <!> <!> <!> <!> <!></section> <h1 class="text-center text-5xl font-bold mb-10 mt-10 text-gray-700">Partners</h1> <section class="sponsors svelte-80j4fg"><!></section></section> <!>',1);function K(y){var s=R();A(e=>{var l=J();j.title="NM³ | Sponsors",o(e,l)});var i=N(s),v=n(i);H(v,{clr:"dark"});var u=a(v,2);W(u,{title:"Sponsors & Partners"}),r(i);var g=a(i,2),m=a(n(g),4),f=n(m);h(f,{name:"Campersand",url:"https://campersand.org/",imgurl:"/img/camp.png",children:(e,l)=>{d();var t=c(`Campersand is a residential program for children who love math,
+            computer science, and deep thinking. It brings together curious,
+            motivated students to explore big ideas with faculty who support
+            deep and open-ended inquiry.`);o(e,t)},$$slots:{default:!0}});var p=a(f,2);h(p,{name:"The Daily Challenge",url:"https://daily.poshenloh.com/",imgurl:"/img/dc.png",children:(e,l)=>{d();var t=c(`The first and only online math course that captivates. Invented by
+            world famous math professor Po-Shen Loh. Taught live by instructors
+            who are not only brilliant at math, but also skilled in
+            improvisational comedy and performance.`);o(e,t)},$$slots:{default:!0}});var b=a(p,2);h(b,{name:"Jane Street",url:"https://www.janestreet.com/",imgurl:"/img/jane.png",children:(e,l)=>{d();var t=c(`Jane Street is a global liquidity provider and trading firm with a
+            unique focus on technology, collaborative problem solving, and
+            sophisticated quantitative analysis to help keep markets efficient
+            and prices reliable.`);o(e,t)},$$slots:{default:!0}});var k=a(b,2);h(k,{name:"Art of Problem Solving",url:"https://artofproblemsolving.com/",imgurl:"/img/artofproblemsolving.png",children:(e,l)=>{d();var t=c(`At Art of Problem Solving, we are training the intellectual leaders
+            of the next generation. We help students develop the problem-solving
+            skills they need to confidently tackle challenging problems—and not
+            only in mathematics.`);o(e,t)},$$slots:{default:!0}});var $=a(k,2);h($,{name:"American Mathematical Society",url:"https://www.ams.org/home/page",imgurl:"/img/ams-logo.png",children:(e,l)=>{d();var t=c(`The American Mathematical Society (AMS) is an association of
+            professional mathematicians dedicated to the interests of
+            mathematical research and scholarship, and serves the national and
+            international community through its publications, meetings, advocacy
+            and other programs.`);o(e,t)},$$slots:{default:!0}});var q=a($,2);h(q,{name:"Hudson River Trading",url:"https://www.hudsonrivertrading.com/",imgurl:"/img/hrt.avif",children:(e,l)=>{d();var t=c(`Hudson River Trading is a multi-asset class quantitative trading
+            firm that provides liquidity on global markets and directly to our
+            clients. We have built one of the world's most advanced computing
+            environments for research and development, modeling, and risk
+            management, and are at the forefront of technical innovation for
+            financial markets everywhere. We are thoughtful market leaders,
+            committed to the health and longevity of global markets.`);o(e,t)},$$slots:{default:!0}}),r(m);var w=a(m,4),S=n(w);h(S,{name:"University of New Mexico",url:"https://unm.edu/",imgurl:"/img/unm.png",children:(e,l)=>{d();var t=c(`The state's flagship public research university, UNM is home to a
+            wide range of STEM programs and serves as a hub for academic
+            excellence in New Mexico.`);o(e,t)},$$slots:{default:!0}}),r(w),r(g);var P=a(g,2);C(P),o(y,s)}export{K as component};
