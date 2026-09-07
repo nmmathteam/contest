@@ -1,0 +1,1 @@
+import"./CWj6FrbW.js";import"./Ce03F-E-.js";import{t as p,a as i,f,l as a,m as r,n as h}from"./DsGXEWVO.js";import{p as d}from"./Ba6xlTo0.js";var x=f('<header class="svelte-1elxaub"><h1 class="text-4xl font-semibold svelte-1elxaub"> </h1></header>');function b(s,l){let o=d(l,"title",8,"");var e=x(),t=a(e),m=a(t,!0);r(t),r(e),p(()=>h(m,o())),i(s,e)}export{b as H};
