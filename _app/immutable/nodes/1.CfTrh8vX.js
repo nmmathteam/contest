@@ -1,0 +1,10 @@
+import"../chunks/CWj6FrbW.js";import"../chunks/Ce03F-E-.js";import{p as f,F as d,a as t,b as h,f as i,ab as g,e as c,$ as u,s as v,i as b,a1 as _}from"../chunks/DsGXEWVO.js";import{h as k}from"../chunks/8IkXwzSs.js";import{i as y}from"../chunks/DRB_5KWE.js";import{s as $,p as s}from"../chunks/CRms_pdj.js";import{N as w}from"../chunks/X0x9MJhx.js";import{H as x}from"../chunks/CzgGxmOP.js";const N={get error(){return s.error},get status(){return s.status}};$.updated.check;const o=N;var H=i(`<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/> <style>header {
+            height: 100vh !important;
+            background: black;
+        }
+        header h1 {
+            margin-bottom: 200px;
+        }
+        body {
+            overflow: hidden;
+        }</style>`,1),M=i("<!> <!>",1);function D(p,m){f(m,!1),y();var a=M();k("1j96wlh",r=>{var l=H();g(2),c(()=>{u.title="NM³ | Sponsors"}),t(r,l)});var e=d(a);w(e,{clr:"dark"});var n=v(e,2);{let r=_(()=>o.status+" "+o.error.message);x(n,{get title(){return b(r)}})}t(p,a),h()}export{D as component};
